@@ -22,7 +22,7 @@
         "prepare": "husky install"
     },
     "lint-staged": {
-        "*.{js,ts}": [
+        "*.ts": [
             "eslint --fix",
             "prettier --config .prettierrc.cjs --write -u"
         ]
